@@ -11,3 +11,5 @@ const produtos = [
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
  
+const arrayFiltro = produtos.filter((valor) => valor.categoria === 'Limpeza')
+console.log(arrayFiltro)
